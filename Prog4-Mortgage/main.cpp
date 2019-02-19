@@ -10,9 +10,12 @@ int main()
   
   Mortgage m; //mortgage instance
   
-  m. //loan // dollar amount of loan used in calculation
-  m. //rate // annual interest rate used in calculation
-  m. //years // the number of years of the loan used in calculation
+  cout << "Enter Loan Amount: " << endl;
+  cin >>   m. //loan // dollar amount of loan used in calculation
+  cout << "Enter Rate Amount: " << endl;
+  cin >> m. //rate // annual interest rate used in calculation
+  cout << "Enter Number of Years: " << endl;
+  cin >> m. //years // the number of years of the loan used in calculation
   
   
  
