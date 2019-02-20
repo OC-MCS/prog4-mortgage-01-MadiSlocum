@@ -1,3 +1,9 @@
+//================
+//Madison Slocum
+//Due Date: Feb 20, 2019
+//Mortgage Program 4
+//====================
+
 #include <iostream>
 #include <string>
 #include <cmath>
