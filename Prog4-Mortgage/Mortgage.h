@@ -1,9 +1,7 @@
 #pragma once //keep this here
-
 #include <iostream> 
 
 using namespace std;
-
 
 class Mortgage{
   
@@ -12,24 +10,28 @@ class Mortgage{
   double loan; //dollar amount of the loan
   double interest; //annual interest rate 
   int years; //years of the loan
+ 
+  //=========================================================
+ 
+public:
   
-  
-  
-  public:
-  
- Mortgage(){  //constructor to set private data to zero
-   loan = 0;
-   interest = 0;
-   years = 0;
-   
- }
-  
-  
-  
-  
-  
-  
-  
-  
-};
+  Mortgage();  //constructor to set private data to zero
 
+  //===================set
+
+  void setLoan(double);  //loan
+
+  void setInterest(double); //interest
+  
+  void setYears(int); //years
+
+//=======================get
+
+  double getLoan() const;
+
+  double getInterest() const; 
+
+  int getYears() const; 
+  
+ 
+};
